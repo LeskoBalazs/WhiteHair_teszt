@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="whitehair.css">
+        <meta charset="utf-8">
+        <title>White Hair Group tesztfeladat</title>
+    </head>
+    <body>
+        <center>
+            <div class="form">
+                <div class="fields">
+                    <form id="wh_form" onsubmit="return handle_form()">
+                        <label>Név:</label><br>
+                        <input id="name" type="text" placeholder='Név' required><br><br>
+                        <label>Email cím:</label><br>
+                        <input id="email" type="text" placeholder='Email cím' required><br><br>
+                        <label>Email cím megerősítése:</label><br>
+                        <input id="email_again" type="text" placeholder='Email cím megerősítése' required oninput="check_email(this)"><br><br>
+                        <label>Honnan hallott rólunk?</label><br>
+                        <select id="options" required>
+                            <option value="">-- Honnan hallott rólunk? --</option>
+                            <option value="Internetről">Internetről</option>
+                            <option value="Televízióból">Televízióból</option>
+                            <option value="Egyéb helyről">Egyéb helyről</option>
+                        </select><br><br>
+                        <label>Elfogadom az adatkezelési nyilatkozatot!</label>
+                        <input id="tick" type="checkbox" required><br><br><br>
+                        <button type="submit" form="wh_form" value="Regisztráció">Regisztráció</button>
+                    </form>   
+                </div>  
+            </div>
+         </center>
+         <script type="text/javascript" src="whitehair.js"></script>
+    </body>
+    </html>

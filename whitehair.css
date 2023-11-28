@@ -1,0 +1,28 @@
+.form{
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px;
+    background-color: #c4dfff;
+}
+.fields{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+input{
+    width: 80%;
+    height: 20px;
+    background-color: white;
+}
+button{
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #ccd3db !important;
+}
+#options{
+    width: 80%;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+}
